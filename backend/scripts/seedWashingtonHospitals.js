@@ -5,7 +5,7 @@ import Hospital from "../models/Hospital.js";
 
 dotenv.config();
 
-const MONGO_URI = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/lifeboon";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://ishaanbshete_db_user:f6WQxTvVGooM7rAP@cluster0.aky5io8.mongodb.net/?appName=Cluster0";
 
 await mongoose.connect(MONGO_URI);
 console.log("✅ Connected to MongoDB for seeding");
