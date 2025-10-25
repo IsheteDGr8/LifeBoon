@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection
-const MONGO_URI = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/lifeboon";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://ishaanbshete_db_user:f6WQxTvVGooM7rAP@cluster0.aky5io8.mongodb.net/?appName=Cluster0";
 mongoose.connect(MONGO_URI)
   .then(() => console.log("✅ MongoDB connected"))
   .catch(err => console.error("❌ MongoDB connection error:", err));
