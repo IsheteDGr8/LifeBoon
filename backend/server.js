@@ -9,7 +9,7 @@ const app = express();
 
 //app.use(cors());
 app.use(cors({
-  origin: ["http://localhost:3000", "https://lifeboon-1qhyevnkl-ishetedgr8s-projects.vercel.app"],
+  origin: ["http://localhost:3000", "https://lifeboon.vercel.app/login", "https://lifeboon-1qhyevnkl-ishetedgr8s-projects.vercel.app"],
   credentials: true
 }));
 
